@@ -961,7 +961,7 @@ input[type="radio"].visually-hidden {
 .slider-button {
   position: absolute;
   bottom: 301px;
-  left: 27;
+  left: 27px;
   z-index: 20;
 }
 
@@ -979,21 +979,21 @@ input[type="radio"].visually-hidden {
   cursor: pointer;
 }
 
-#product-1:checked ~ .page-main #slide1,
-#product-2:checked ~ .page-main #slide2,
-#product-3:checked ~ .page-main #slide3 {
+.slider-controller-1:checked ~ .page-main #slide1,
+.slider-controller-2:checked ~ .page-main #slide2,
+.slider-controller-3:checked ~ .page-main #slide3 {
   display: block;
 }
 
-#product-1:checked ~ .page-main label[for="product-1"],
-#product-2:checked ~ .page-main label[for="product-2"],
-#product-3:checked ~ .page-main label[for="product-3"] {
+.slider-controller-1:checked ~ .page-main label[for="product-1"],
+.slider-controller-2:checked ~ .page-main label[for="product-2"],
+.slider-controller-3:checked ~ .page-main label[for="product-3"] {
   background-color: #ffffff;
 }
 
-#product-1:hover ~ .page-main label[for="product-1"],
-#product-2:hover ~ .page-main label[for="product-2"],
-#product-3:hover ~ .page-main label[for="product-3"] {
+.slider-controller-1:hover ~ .page-main label[for="product-1"],
+.slider-controller-2:hover ~ .page-main label[for="product-2"],
+.slider-controller-3:hover ~ .page-main label[for="product-3"] {
   background-color: rgba(255, 255, 255, 0.4);
 }
 
