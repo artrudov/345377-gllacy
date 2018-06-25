@@ -979,9 +979,9 @@ input[type="radio"].visually-hidden {
   cursor: pointer;
 }
 
-.slider-controller-1:checked ~ .page-main #slide1,
-.slider-controller-2:checked ~ .page-main #slide2,
-.slider-controller-3:checked ~ .page-main #slide3 {
+.slider-controller-1:checked ~ .page-main .slider-item_1,
+.slider-controller-2:checked ~ .page-main .slider-item_2,
+.slider-controller-3:checked ~ .page-main .slider-item_3 {
   display: block;
 }
 
