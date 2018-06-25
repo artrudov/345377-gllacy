@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=cyrillic');
 
 body {
+
   margin: 0;
   padding: 0;
 
@@ -1591,17 +1592,6 @@ input[type="radio"].visually-hidden {
   display: none;
 }
 
-/*.subscription__item-label {
-  position: absolute;
-  top: 10px;
-  left: 14px;
-
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-  color: #999999;
-}*/
-
 .button-subscription {
   width: 130px;
   padding: 12px 18px;
@@ -1609,18 +1599,23 @@ input[type="radio"].visually-hidden {
   margin-bottom: 16px;
 }
 
-.map-wapper {
+.map {
   position: relative;
-
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .map__image-yandex {
   position: absolute;
+  width: 100%;
   top: 0;
   left: 0;
   border: 0;
+  z-index: 1;
+}
+
+.map-wapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .contacts {
@@ -1645,6 +1640,7 @@ input[type="radio"].visually-hidden {
 
   background-color: #fffffe;
   border-radius: 15px;
+  z-index: 1;
 }
 
 .contacts__item,
